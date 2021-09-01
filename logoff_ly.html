@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang=zh-CN>
+
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=Edge">
+    <meta name=viewport content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1">
+    <title>账号注销</title>
+    <meta name=keywords content="">
+    <meta name=description content="">
+    <meta name=renderer content="webkit, webkit|ie-comp|ie-stand">
+    <meta name=robots content=all>
+    <meta itemprop=name content="">
+    <meta itemprop=image content="">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <meta name=HandheldFriendly content=true>
+    <meta name=format-detection content="telephone=no">
+    <meta name=format-detection content="email=no">
+    <meta name=applicable-device content=mobile>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/logoff.css">
+</head>
+
+<body class=page-logoff>
+    <div class=app-main>
+        <div class=intro>
+            <p>很遗憾我们无法继续为您服务，在您进一步提交账户注销申请之前，为避免非本人操作带来的损失，在注销之前需要人工进行审核。</p>
+            <p>账号注销需要您提供以下信息用以验证，请您提前做好准备，点击“确认注销”发送给客服人员进行审核，审核通过后我们将对账户进行注销。</p>
+            <p>1、账号的常用登陆地点</p>
+            <p>2、账号绑定的账号或者手机号</p>
+        </div>
+        <div class=privacy-agree> <label class=checkbox><input type=checkbox value=0 id=checkboxPrivacyAgree><span class=icon-checkbox id=checkBoxIcon></span></label><span class=agree-text>我已阅读并通过 <a id=btnPrivacyAgreement>《隐私协议》</a>、<a id=btnUserAgreement>《用户协议》</a></span> </div> <button class=confirm-login-out id=btnToLoginOut>确认注销</button>
+    </div>
+    <div class=modal id=modalConfirmToLoginOut>
+        <div class=modal-mask></div>
+        <div class=modal-container>
+            <div class=modal-content>
+                <div class=modal-header>温馨提示</div>
+                <div class=modal-body>
+                    <p class=modal-text>您已提交注销申请，稍后客服会联系您，<br>请稍后！</p>
+                </div>
+                <div class=modal-footer> <button class=modal-confirm id=btnModalConfirmLoginOut>我知道了</button> </div>
+            </div>
+        </div>
+    </div>
+    <div class=modal id=modalConfirmAgree>
+        <div class=modal-mask></div>
+        <div class=modal-container>
+            <div class=modal-content>
+                <div class=modal-body>
+                    <p class=modal-text>我已阅读并同意以上协议和条款</p>
+                </div>
+                <div class=modal-footer> <button class=modal-confirm id=btnModalConfirmAgree>确定</button> </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/app.js"></script>
+<script src="./js/logoff.js"></script>
+
+</html>
