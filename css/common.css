@@ -1,0 +1,131 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+    min-height: 100%;
+    overflow-x: hidden
+}
+
+body, button, input, keygen, legend, select, textarea {
+    font-family: Microsoft Yahei, Source Sans Pro, HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif, 瀹嬩綋
+}
+
+li, ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto
+}
+
+img {
+    vertical-align: middle;
+    line-height: 1;
+    max-width: 100%
+}
+
+.center {
+    text-align: center
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background: 50% no-repeat;
+    background-size: 100%
+}
+
+.toast {
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .85);
+    box-shadow: 0 0 .926vw rgba(0, 0, 0, .25);
+    padding: .5em 1em;
+    text-align: center;
+    left: 50%;
+    top: 30%;
+    color: #fff;
+    border-radius: .463vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 2.963vw;
+    box-sizing: border-box;
+    border: 1px solid #ebeef5;
+    background-color: #edf2fc;
+    transition: opacity .3s, transform .4s, top .4s;
+    overflow: hidden;
+    display: flex;
+    align-items: center
+}
+
+.toast-fade-enter, .toast-fade-leave-active {
+    opacity: 0;
+    transform: translate(-50%, -100%)
+}
+
+.toast.is-center {
+    justify-content: center
+}
+
+.toast p {
+    margin: 0
+}
+
+.toast.info {
+    color: #909399
+}
+
+.toast.success {
+    background-color: #f0f9eb;
+    border-color: #e1f3d8;
+    color: #67c23a
+}
+
+.toast.warning {
+    background-color: #fdf6ec;
+    border-color: #faecd8;
+    color: #e6a23c
+}
+
+.toast.error {
+    background-color: #fef0f0;
+    border-color: #fde2e2;
+    color: #f56c6c
+}
+
+.toast.tips {
+    background-color: rgba(0, 0, 0, .65);
+    border-color: transparent;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.toast .icon {
+    margin-right: .926vw
+}
+
+.toast .icon-success {
+    color: #67c23a
+}
+
+.toast .icon-error {
+    color: #f56c6c
+}
+
+.toast .icon-info {
+    color: #909399
+}
+
+.toast .icon-warning {
+    color: #e6a23c
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: .65
+}

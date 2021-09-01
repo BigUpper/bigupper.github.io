@@ -1,0 +1,32 @@
+.page-privacy-content-ah {
+    color: #fff;
+    background-color: #151515
+}
+
+.privacy-content {
+    padding: 16px 0
+}
+
+.privacy-content div {
+    margin-bottom: 16px
+}
+
+.privacy-content div h4 {
+    margin: 0 auto 16px;
+    padding: 0;
+    line-height: 1.6
+}
+
+.privacy-content div p {
+    text-indent: 2em;
+    margin: 0 auto;
+    line-height: 1.6
+}
+
+.privacy-content div p + p {
+    margin-top: 6px
+}
+
+.center {
+    text-align: center
+}
